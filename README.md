@@ -63,3 +63,11 @@ The experimental data files must remain within this folder, and the scripts shou
 ## Further Information
 
 The mathematical formulation, engineering assumptions, numerical solution procedure, validation results and mitigation analysis are documented in the accompanying MRN 422 research report.
+
+### Computational Requirements
+
+The computational time required depends on the simulation duration, numerical time step and number of operating conditions evaluated. The extended 24-hour simulations and mitigation optimisation may require several hours to complete, depending on the computer used.
+
+The validation scripts can be executed separately to evaluate the numerical model against the averaged experimental measurements.
+
+The longer simulations were used to generate the results discussed in the accompanying MRN 422 report.
