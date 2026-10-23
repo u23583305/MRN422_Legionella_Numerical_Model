@@ -84,10 +84,14 @@ These CSV files allow the reported numerical results to be inspected without rer
 
 ### Recirculation Optimization
 
-The `mitigation_optimisation.py` script evaluates the effects of recirculation trigger temperature, pump operating duration, and pipe insulation on thermal-risk exposure at dead-leg measurement location 9A.
+The mitigation_optimisation_csv.py script evaluates recirculation durations from 1 to 10 minutes for insulated and uninsulated piping, using a 47 °C pump activation threshold at thermocouple 12A.
 
-The final optimization results will be provided in the `Results/` directory after completion and verification of the simulation.
+Thermal risk exposure is assessed at thermocouple 9A over the 32–47 °C temperature range and normalised to minutes per hour.
 
-The validation scripts can be executed separately to evaluate the numerical model against the averaged experimental measurements.
+An 8-minute recirculation duration was selected to balance thermal risk reduction and pump operation.
 
-The longer simulations were used to generate the results discussed in the accompanying MRN 422 report.
+The results are saved in Results/Optimisation_1_to_10_min_results.csv.
+
+Run the simulation:
+
+python mitigation_optimisation_csv.py
