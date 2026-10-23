@@ -68,6 +68,26 @@ The mathematical formulation, engineering assumptions, numerical solution proced
 
 The computational time required depends on the simulation duration, numerical time step and number of operating conditions evaluated. The extended 24-hour simulations and mitigation optimisation may require several hours to complete, depending on the computer used.
 
+## Numerical Simulation Results
+
+The `Results/` directory contains the numerical outputs generated using the Python model developed for this investigation.
+
+The following files are provided:
+
+- `24h_no_recirc.csv` — Simulated 24-hour temperature history for the no-recirculation reference case.
+- `24h_uninsulated_recirc.csv` — Simulated 24-hour temperature history with recirculation and uninsulated piping.
+- `24h_insulated_recirc.csv` — Simulated 24-hour temperature history with recirculation and 10 mm pipe insulation.
+- `Table_10_24h_Risk_Comparison.csv` — Comparison of thermal-risk exposure and recirculation pump operation for the three scenarios.
+- `Table_11_48C_Thermal_Performance.csv` — Comparison of thermal performance relative to the 48°C threshold.
+
+These CSV files allow the reported numerical results to be inspected without rerunning the full simulations.
+
+### Recirculation Optimization
+
+The `mitigation_optimisation.py` script evaluates the effects of recirculation trigger temperature, pump operating duration, and pipe insulation on thermal-risk exposure at dead-leg measurement location 9A.
+
+The final optimization results will be provided in the `Results/` directory after completion and verification of the simulation.
+
 The validation scripts can be executed separately to evaluate the numerical model against the averaged experimental measurements.
 
 The longer simulations were used to generate the results discussed in the accompanying MRN 422 report.
