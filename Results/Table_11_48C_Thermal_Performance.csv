@@ -1,0 +1,4 @@
+Configuration,Time at or above 48 C (min),Time at or above 48 C (%),Time below 48 C (min)
+Uninsulated recirculation (8 min),960.07,66.67,479.93
+10 mm insulated recirculation (8 min),1199.26,83.28,240.74
+No recirculation (shower draws only),69.38,4.82,1370.62
