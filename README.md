@@ -82,16 +82,16 @@ The following files are provided:
 
 These CSV files allow the reported numerical results to be inspected without rerunning the full simulations.
 
-### Recirculation Optimization
+### Recirculation Optimisation
 
-The mitigation_optimisation_csv.py script evaluates recirculation durations from 1 to 10 minutes for insulated and uninsulated piping, using a 47 °C pump activation threshold at thermocouple 12A.
+The `mitigation_optimisation_csv.py` script evaluates recirculation durations from 1 to 10 minutes for insulated and uninsulated piping, using a 47 °C pump activation threshold at thermocouple 12A.
 
-Thermal risk exposure is assessed at thermocouple 9A over the 32–47 °C temperature range and normalised to minutes per hour.
+Thermal risk exposure is evaluated at thermocouple 9A over the 32–47 °C temperature range and normalised to minutes per hour. An 8-minute recirculation duration was selected to balance thermal risk reduction and pump operation.
 
-An 8-minute recirculation duration was selected to balance thermal risk reduction and pump operation.
+The results are provided in `Results/Optimisation_1_to_10_min_results.csv`.
 
-The results are saved in Results/Optimisation_1_to_10_min_results.csv.
+To run the optimisation:
 
-Run the simulation:
-
+```bash
 python mitigation_optimisation_csv.py
+```
