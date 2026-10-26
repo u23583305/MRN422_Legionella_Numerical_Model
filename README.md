@@ -99,7 +99,7 @@ The simulation considers two five-minute shower periods per day and an 8-minute 
 
 The additional geyser heating energy is estimated from the increase in pipe heat losses relative to the non-recirculating system. An 85 W recirculation pump and an electricity tariff of R3.83/kWh are assumed.
 
-The estimated additional annual operating costs are R2,436.43 for uninsulated recirculation and R794.38 for insulated recirculation. These costs are calculated using the rounded daily heat-loss values reported in Appendix F4, assuming normal geyser heating requirements remain constant across configurations.
+The estimated additional annual operating costs are R2436.52 for uninsulated recirculation and R794.32 for insulated recirculation. These costs are calculated using the rounded daily heat-loss values reported in Appendix F4, assuming normal geyser heating requirements remain constant across configurations.
 
 The results are provided in `Results/Table_11_24h_Energy_Cost_Comparison.csv`.
 
